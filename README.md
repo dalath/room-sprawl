@@ -1,4 +1,4 @@
-#What is this?
+# What is this?
 This project exists to provide a simple and hopefully fun way of participating in Open Source Development.
 
 #Is it for you?
