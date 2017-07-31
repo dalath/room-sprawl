@@ -7,4 +7,4 @@ If you're trying to get out there and contribute to some open source projects bu
 # The game!
 The project consists of a very simple little exploration game, called Room Sprawl. The player moves from room to room, sometimes picking up items and using them to unlock other rooms. 
 
-Have a look at [CONTRIBUTING.md](https://github.com/dalath/room-sprawl/blob/master/CONTRIBUTING.md) and [HOW-TO-PLAY.md](https://github.com/dalath/room-sprawl/blob/master/HOW-TO-PLAY.md) to get started.
+Have a look at [CONTRIBUTING.md](CONTRIBUTING.md) and [HOW-TO-PLAY.md](HOW-TO-PLAY.md) to get started.
