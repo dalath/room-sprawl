@@ -23,6 +23,7 @@ The title, description, and items parameters are just simple strings. In order t
 
 ## Where to begin?
 Look at the setupRooms method in main.js. Simplest way to start would be to copy-and-paste an existing line and make your changes to it.
+To see how your particular room fits into the sprawl, have a look at [MAP.txt]
 
 
 ## Some meaty docs
