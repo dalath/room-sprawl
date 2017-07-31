@@ -5,7 +5,7 @@ First, [go visit Room Sprawl](https://rawgit.com/dalath/room-sprawl/master/index
 You can contribute simply by creating a new room in the game!
 
 
-## What are rooms?
+### What are rooms?
 A room has a location (x and y in a grid), a title (e.g. *"Shadowy Dining Room"*) and a description (e.g. *"Most of this room is taken up by a giant dining room table surrounded by tall chairs..."* and so on). 
 
 A room might also contain an item (optional) or require some item to be entered (also optional). See How-To-Play for mer detailed information.
