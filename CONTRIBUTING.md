@@ -29,6 +29,9 @@ To see how your particular room fits into the sprawl, have a look at [MAP.txt](M
 ## TECH STUFF
 I use Github Desktop to make it all simpler, but whatever way you do your GIT should be fine.
 
-1: Fork
-2: Change
-3: 
+1. Fork the repo
+2. Clone your fork
+3. Create a branch
+4. Make your changes
+5. Push your changes to your fork
+6. Create a pull request
