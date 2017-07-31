@@ -1,0 +1,108 @@
+
+/* @import url('colors.css'); */
+
+
+
+html
+{
+    /* background-image: url("../img/siteBackgrounds/siteBackground_1.jpg"); */
+}
+
+
+
+
+canvas 
+{
+	cursor: none; 
+}
+
+
+
+#main_wrapper
+{
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+	font-family: Helvetica;
+}
+
+#room_wrapper
+{
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	width: 500px;
+	height: 350px;
+	background-color: #ddebff;
+    /* border: 1px dotted lightgreen; */
+}
+
+#hud_wrapper
+{
+	position: absolute;
+	top: 10%;
+	left: 15%;
+	font-weight: lighter;
+	font-size: small;
+}
+
+#room_title
+{
+	position: absolute;
+	padding: 5px;
+	text-align: left;
+	font-weight: bold;
+	font-size: large;
+	/* border: 1px dotted red; */
+}
+
+#room_description
+{
+	position: absolute;
+	padding: 5px;
+	text-align: left;
+	font-family: Courier;
+	font-size: medium;
+	/* border: 1px dotted blue; */
+}
+
+
+.btn_nav
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.btn_lock
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+#btn_item
+{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+}
+
+.hud_row
+{
+	height: 25px;
+}
+
+.hud_element
+{
+	display: inline-block;
+	font-weight: normal;
+	font-size: medium;
+}
+
+
+
+
+/* z-index: 30; */
+/* opacity: 0.5; */
+

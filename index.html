@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+        <title>Room Sprawl</title>
+        	<script type="text/javascript" src="styleSetup.js"></script>
+        	<script type="text/javascript" src="room.js"></script>
+            <script type="text/javascript" src="main.js"></script>
+        <script>onload=init</script>
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+    </head>
+
+
+    <body id='mainBody'>
+
+    <div id="hud_wrapper">
+    	<div class="hud_row" style="padding-bottom: 10px;">
+    		R O O M&nbsp;&nbsp;&nbsp;&nbsp;S P R A W L
+    		<hr/>
+    	</div>
+    	<div class="hud_row">
+    		Discovered: <div id="hud_disc" class="hud_element"></div>
+    	</div>
+
+    	<div class="hud_row">
+    		Item: <div id="hud_item" class="hud_element"></div>
+    	</div>
+    </div>
+
+
+    <div id='main_wrapper'>
+
+    	<div id='room_wrapper'>
+    		<div id='room_title'>
+    			Room Title lol
+    		</div>
+    		<div id='room_description'>
+    			A description of a room...
+    		</div>
+	
+			<button id='btn_item' onclick="itemButtonClicked()">&nbsp;</button>	
+
+    	</div>
+
+    	<button id='btn_nav_north' class='btn_nav' onclick="northButtonClicked()">north</button>
+		<button id='btn_lock_north' class='btn_lock' disabled>&nbsp;</button>
+		<button id='btn_nav_west' class='btn_nav' onclick="westButtonClicked()">west</button>
+		<button id='btn_lock_west' class='btn_lock' disabled>&nbsp;</button>
+		<button id='btn_nav_east' class='btn_nav' onclick="eastButtonClicked()">east</button>
+		<button id='btn_lock_east' class='btn_lock' disabled>&nbsp;</button>
+		<button id='btn_nav_south' class='btn_nav' onclick="southButtonClicked()">south</button>
+		<button id='btn_lock_south' class='btn_lock' disabled>&nbsp;</button>
+
+	</div>
+
+    	<!-- <embed height="0" width="0" loop="true" src="muzak.mp3"> -->
+	</body>
+</html>
+
+
+
+
