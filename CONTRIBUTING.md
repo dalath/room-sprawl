@@ -5,13 +5,13 @@ First, [go visit Room Sprawl](https://rawgit.com/dalath/room-sprawl/master/index
 You can contribute simply by creating a new room in the game!
 
 
-### What are rooms?
+## What are rooms?
 A room has a location (x and y in a grid), a title (e.g. *"Shadowy Dining Room"*) and a description (e.g. *"Most of this room is taken up by a giant dining room table surrounded by tall chairs..."* and so on). 
 
 A room might also contain an item (optional) or require some item to be entered (also optional). See How-To-Play for mer detailed information.
 
 
-# Components
+## Components
 The xy location are two integers and will be predefined so you wont have to come up with them yourself.
 
 The title, description, and items parameters are just simple strings. In order to keep it terse (and to add some challenge to your creativity), they are constricted in length: 
@@ -21,10 +21,10 @@ The title, description, and items parameters are just simple strings. In order t
 	items can be max 16 characters long
 
 
-# Where to begin?
+## Where to begin?
 Look at the setupRooms method in main.js. Simplest way to start would be to copy-and-paste an existing line and make your changes to it.
 
 
-# Some meaty docs
+## Some meaty docs
 First, a lot of good information can be found at https://opensource.guide/how-to-contribute/
 If you're also new to git you should start with this guide https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
