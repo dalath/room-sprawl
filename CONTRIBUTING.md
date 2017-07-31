@@ -26,6 +26,9 @@ Look at the setupRooms method in main.js. Simplest way to start would be to copy
 To see how your particular room fits into the sprawl, have a look at [MAP.txt](MAP.txt)
 
 
-## Some meaty docs
-First, a lot of good information can be found at https://opensource.guide/how-to-contribute/
-If you're also new to git you should start with this guide https://egghead.io/courses/how-to-contribute-to-an-open-source-project-on-github
+## TECH STUFF
+I use Github Desktop to make it all simpler, but whatever way you do your GIT should be fine.
+
+1: Fork
+2: Change
+3: 
