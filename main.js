@@ -42,9 +42,9 @@ function setupRooms()
 	addRoom(1,1, "Gloomy corridor", "You are in a gloomy, stone-flagged corridor, three meters wide, three metres high, with rough stone walls, dripping slightly with dampness and covered in mildew.", "candle");
 	addRoom(2,0, "Worm pipe", "A narrow pipe like corridor which light comes at the other side. It seems you need to crawl to the end.");
         addRoom(2,1, "Fish fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish, and a short jet of water comes from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
+	addRoom(2,2, "Dirty wall", "You are in a room with paintings but they covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
 	addRoom(3,0, "Shiny cup", "At the end of the worm pipe there where a small storage area half a meter wide. It was look like a place to hide something. A hole on top made a way for sunlight to lit a jar-size cup.", null, "Shiny cup");
-	addRoom(3,1, "Dirty wall", "You are in a room with paintings but they covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
-	addRoom(4,1, "Big hall" , "After washing dusty walls a giant Inka head apeared. you noticed his left eye is a button. By pressing it you entered this big hall. A bunch of lances at the left and light comes at a hole on the right wall.", "Shiny cup");
+	addRoom(3,2, "Big hall" , "After washing dusty walls a giant Inka head apeared. you noticed his left eye is a button. By pressing it you entered this big hall. A bunch of lances at the left and light comes at a hole on the right wall.", "Shiny cup");
 }
 //
 function enterRoomAt(x_, y_)
