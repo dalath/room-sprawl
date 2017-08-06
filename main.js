@@ -54,7 +54,7 @@ function enterRoomAt(x_, y_)
 	if(!currentRoom.discovered) {
 		currentRoom.discovered = true;
 		discoverCount++;
-		hudDisc.innerHTML = (discoverCount / roomCount) * 100 + "%";
+		hudDisc.innerHTML = ((discoverCount / roomCount) * 100).toFixed(2) + "%";
 	}
 	roomTitle.innerHTML = rooms[x_][y_].title;
 	roomDescr.innerHTML = rooms[x_][y_].descr;
