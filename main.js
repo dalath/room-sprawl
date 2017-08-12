@@ -43,6 +43,7 @@ function setupRooms()
 	addRoom(2,0, "Worm pipe", "A narrow pipe like corridor with light coming from the other side. It seems you need to crawl to the end.");
         addRoom(2,1, "Fish fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish, and a short jet of water comes from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
 	addRoom(2,2, "Dirty wall", "You are in a room with paintings covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
+	addRoom(2,3, "Ruins", "The now spotless dusty walls also reveals a passage. As you follow the path, you notice your descent downwards, and eventually the tunnel opens into a large, ruined, underground civilization. Perhaps you can find some lost treasure down here.", null, "door handle");
 	addRoom(3,0, "Shiny cup", "At the end of the worm pipe there is a small storage area half a meter wide. It looks like a place to hide something. A hole on top makes way for sunlight to light a jar-sized cup.", null, "shiny cup");
 	addRoom(3,2, "Big hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole on the right wall.", "shiny cup");
 }
