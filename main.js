@@ -45,6 +45,7 @@ function setupRooms()
 	addRoom(2,2, "Dirty wall", "You are in a room with paintings covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
 	addRoom(3,0, "Shiny cup", "At the end of the worm pipe there is a small storage area half a meter wide. It looks like a place to hide something. A hole on top makes way for sunlight to light a jar-sized cup.", null, "shiny cup");
 	addRoom(3,2, "Big hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole on the right wall.", "shiny cup");
+	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "shiny cup", "ghost detector");
 }
 //
 function enterRoomAt(x_, y_)
