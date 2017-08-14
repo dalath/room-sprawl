@@ -1,4 +1,3 @@
-
 /*
  * Main program
  *
@@ -44,26 +43,26 @@ function setupRooms()
         addRoom(2,1, "Fish fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish, and a short jet of water comes from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
 	addRoom(2,2, "Dirty wall", "You are in a room with paintings covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
 	addRoom(2,3, "Ruins", "The now spotless dusty walls also reveals a passage. As you follow the path, you notice your descent downwards, and eventually the tunnel opens into a large, ruined, underground civilization. Perhaps you can find some lost treasure down here.", null, "door handle");
+	addRoom(2,4, "The Dark Warehouse", "the room is full of junk stuff and there is no light to see anything around, you might find some thing handy here!", "candle", "ghost detector");
 	addRoom(3,0, "Shiny cup", "At the end of the worm pipe there is a small storage area half a meter wide. It looks like a place to hide something. A hole on top makes way for sunlight to light a jar-sized cup.", null, "shiny cup");
 	addRoom(3,2, "Big hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole on the right wall.", "shiny cup");
 	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "shiny cup", "ghost detector");
 	addRoom(3,4, "Boudoir of the queen of the ball", "You're in the ghost queen's boudoir. You can see her majesty near broken mirror covered with spider web.", "ghost detector", "ruby ring");
 }
 //
-function enterRoomAt(x_, y_)
-{// Loads a room into the UI
-	//
-	currentRoom = rooms[x_][y_];
-	if(!currentRoom.discovered) {
-		currentRoom.discovered = true;
-		discoverCount++;
-		hudDisc.innerHTML = ((discoverCount / roomCount) * 100).toFixed(2) + "%";
-	}
-	roomTitle.innerHTML = rooms[x_][y_].title;
-	roomDescr.innerHTML = rooms[x_][y_].descr;
-	//
-	refreshNavButtons();
-	refreshItemButton();
+function enterRoomAt(x_, y_) { // Loads a room into the UI
+    //
+    currentRoom = rooms[x_][y_];
+    if (!currentRoom.discovered) {
+        currentRoom.discovered = true;
+        discoverCount++;
+        hudDisc.innerHTML = ((discoverCount / roomCount) * 100).toFixed(2) + "%";
+    }
+    roomTitle.innerHTML = rooms[x_][y_].title;
+    roomDescr.innerHTML = rooms[x_][y_].descr;
+    //
+    refreshNavButtons();
+    refreshItemButton();
 }
 //
 function refreshNavButtons()
@@ -118,15 +117,14 @@ function refreshNavButtons()
 	}
 }
 //
-function refreshItemButton()
-{// Updates the state of the UI room item button
-	//
-	if(currentRoom.item != null) {
-		btnItem.style.visibility = "visible";
-		btnItem.innerHTML = currentRoom.item;
-	} else {
-		btnItem.style.visibility = "hidden";
-	}
+function refreshItemButton() { // Updates the state of the UI room item button
+    //
+    if (currentRoom.item != null) {
+        btnItem.style.visibility = "visible";
+        btnItem.innerHTML = currentRoom.item;
+    } else {
+        btnItem.style.visibility = "hidden";
+    }
 }
 
 
@@ -137,24 +135,20 @@ function refreshItemButton()
 //
 //--------------------
 //
-function northButtonClicked()
-{
-	enterRoomAt(currentRoom.x, currentRoom.y-1);
+function northButtonClicked() {
+    enterRoomAt(currentRoom.x, currentRoom.y - 1);
 }
 //
-function southButtonClicked()
-{
-	enterRoomAt(currentRoom.x, currentRoom.y+1);
+function southButtonClicked() {
+    enterRoomAt(currentRoom.x, currentRoom.y + 1);
 }
 //
-function eastButtonClicked()
-{
-	enterRoomAt(currentRoom.x+1, currentRoom.y);
+function eastButtonClicked() {
+    enterRoomAt(currentRoom.x + 1, currentRoom.y);
 }
 //
-function westButtonClicked()
-{
-	enterRoomAt(currentRoom.x-1, currentRoom.y);
+function westButtonClicked() {
+    enterRoomAt(currentRoom.x - 1, currentRoom.y);
 }
 //
 function itemButtonClicked()
