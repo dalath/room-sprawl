@@ -50,7 +50,8 @@ function setupRooms()
 	addRoom(3,4, "Boudoir of the queen of the ball", "You're in the ghost queen's boudoir. You can see her majesty near broken mirror covered with spider web.", "ghost detector", "ruby ring");
 }
 //
-function enterRoomAt(x_, y_) { // Loads a room into the UI
+function enterRoomAt(x_, y_) 
+{ // Loads a room into the UI
     //
     currentRoom = rooms[x_][y_];
     if (!currentRoom.discovered) {
@@ -117,7 +118,8 @@ function refreshNavButtons()
 	}
 }
 //
-function refreshItemButton() { // Updates the state of the UI room item button
+function refreshItemButton() 
+{ // Updates the state of the UI room item button
     //
     if (currentRoom.item != null) {
         btnItem.style.visibility = "visible";
@@ -135,19 +137,23 @@ function refreshItemButton() { // Updates the state of the UI room item button
 //
 //--------------------
 //
-function northButtonClicked() {
+function northButtonClicked() 
+{
     enterRoomAt(currentRoom.x, currentRoom.y - 1);
 }
 //
-function southButtonClicked() {
+function southButtonClicked() 
+{
     enterRoomAt(currentRoom.x, currentRoom.y + 1);
 }
 //
-function eastButtonClicked() {
+function eastButtonClicked() 
+{
     enterRoomAt(currentRoom.x + 1, currentRoom.y);
 }
 //
-function westButtonClicked() {
+function westButtonClicked() 
+{
     enterRoomAt(currentRoom.x - 1, currentRoom.y);
 }
 //
