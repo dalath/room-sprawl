@@ -51,7 +51,7 @@ function setupRooms()
 }
 //
 function enterRoomAt(x_, y_) 
-{ // Loads a room into the UI
+{// Loads a room into the UI
     //
     currentRoom = rooms[x_][y_];
     if (!currentRoom.discovered) {
@@ -119,7 +119,7 @@ function refreshNavButtons()
 }
 //
 function refreshItemButton() 
-{ // Updates the state of the UI room item button
+{// Updates the state of the UI room item button
     //
     if (currentRoom.item != null) {
         btnItem.style.visibility = "visible";
