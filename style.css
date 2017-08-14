@@ -11,9 +11,9 @@ html
 
 
 
-canvas 
+canvas
 {
-	cursor: none; 
+	cursor: none;
 }
 
 
@@ -84,7 +84,7 @@ canvas
 #btn_item
 {
 	position: absolute;
-	width: 50px;
+	min-width: 50px;
 	height: 50px;
 }
 
@@ -105,4 +105,3 @@ canvas
 
 /* z-index: 30; */
 /* opacity: 0.5; */
-
