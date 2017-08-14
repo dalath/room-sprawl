@@ -1,7 +1,7 @@
 
 /*
  * Main program
- * 
+ *
  */
 
 
@@ -11,7 +11,7 @@
 // 	 Global variables
 //
 //----------------------
-// 
+//
 var discoverCount = 0;
 var currentRoom;
 var currentItem = "";
@@ -24,13 +24,13 @@ var currentItem = "";
 //
 //--------------------
 //
-function init() 
+function init()
 {// Called from index.html
 	//
 	setupStyle();
 	setupRooms();
 	//
-	enterRoomAt(0,0);	
+	enterRoomAt(0,0);
 }
 //
 function setupRooms()
@@ -47,6 +47,7 @@ function setupRooms()
 	addRoom(3,0, "Shiny cup", "At the end of the worm pipe there is a small storage area half a meter wide. It looks like a place to hide something. A hole on top makes way for sunlight to light a jar-sized cup.", null, "shiny cup");
 	addRoom(3,2, "Big hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole on the right wall.", "shiny cup");
 	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "shiny cup", "ghost detector");
+	addRoom(3,4, "Boudoir of the queen of the ball", "You're in the ghost queen's boudoir. You can see her majesty near broken mirror covered with spider web.", "ghost detector", "ruby ring");
 }
 //
 function enterRoomAt(x_, y_)
@@ -77,7 +78,7 @@ function refreshNavButtons()
 	//
 	// NORTH
 	btnNavNorth.disabled = true;
-	if(y == 0 || typeof rooms[x][y-1] == 'undefined') {	
+	if(y == 0 || typeof rooms[x][y-1] == 'undefined') {
 		btnLockNorth.innerHTML = "WALL";
 	} else if(rooms[x][y-1].checkKey()) {
 		btnLockNorth.innerHTML = "need<br/>" + rooms[x][y-1].reqKey;
@@ -167,4 +168,3 @@ function itemButtonClicked()
 	refreshItemButton();
 	refreshNavButtons();
 }
-
