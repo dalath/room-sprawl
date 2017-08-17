@@ -41,7 +41,7 @@ function setupRooms()
 	addRoom(1,1, "Gloomy Corridor", "You are in a gloomy, stone-flagged corridor. The rough stone walls stand 3 meters apart, with the same distance measured from floor to ceiling. They drip slightly with dampness and covered in mildew.", "Candle");
 	addRoom(1,4, "Forgotten Altar", "A dusty altar sits tucked against the west wall in an otherwise empty chamber. 4 candles sit upon its surface, 3 of them lit. The light flickers across rosary cast to the floor nearby.", null, "Rosary");
 	addRoom(2,0, "Worm Pipe", "A narrow pipe-like corridor with light coming from the other side. It seems you need to crawl to the end.");
-        addRoom(2,1, "Fish Fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish with a short jet of water erupting from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
+  addRoom(2,1, "Fish Fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish with a short jet of water erupting from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
 	addRoom(2,2, "Dirty Wall", "You are in a room with paintings covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
 	addRoom(2,3, "Ruins", "The now spotless dusty walls also reveals a passage. As you follow the path, you notice your descent downwards, and eventually the tunnel opens into a large, ruined, underground civilization. Perhaps you can find some lost treasure down here.", null, "Door Handle");
 	addRoom(2,4, "The Dark Warehouse", "The room appears to be full of assorted junk but there is no light with which to see anything. You might find something handy here!", "Candle", "Ghost Detector");
@@ -49,9 +49,10 @@ function setupRooms()
 	addRoom(3,2, "Big Hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole in the right wall.", "Shiny Cup");
 	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "Shiny Cup", "Ghost Detector");
 	addRoom(3,4, "Boudoir of the Queen of the Ball", "You're in the ghost queen's boudoir. You can see her majesty near a broken mirror covered with spider webs.", "Ghost Detector", "Ruby Ring");
+  addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
 }
 //
-function enterRoomAt(x_, y_) 
+function enterRoomAt(x_, y_)
 {// Loads a room into the UI
     //
     currentRoom = rooms[x_][y_];
@@ -119,7 +120,7 @@ function refreshNavButtons()
 	}
 }
 //
-function refreshItemButton() 
+function refreshItemButton()
 {// Updates the state of the UI room item button
     //
     if (currentRoom.item != null) {
@@ -138,22 +139,22 @@ function refreshItemButton()
 //
 //--------------------
 //
-function northButtonClicked() 
+function northButtonClicked()
 {
     enterRoomAt(currentRoom.x, currentRoom.y - 1);
 }
 //
-function southButtonClicked() 
+function southButtonClicked()
 {
     enterRoomAt(currentRoom.x, currentRoom.y + 1);
 }
 //
-function eastButtonClicked() 
+function eastButtonClicked()
 {
     enterRoomAt(currentRoom.x + 1, currentRoom.y);
 }
 //
-function westButtonClicked() 
+function westButtonClicked()
 {
     enterRoomAt(currentRoom.x - 1, currentRoom.y);
 }
