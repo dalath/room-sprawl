@@ -49,9 +49,10 @@ function setupRooms()
 	addRoom(3,2, "Big hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole on the right wall.", "shiny cup");
 	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "shiny cup", "ghost detector");
 	addRoom(3,4, "Boudoir of the queen of the ball", "You're in the ghost queen's boudoir. You can see her majesty near broken mirror covered with spider web.", "ghost detector", "ruby ring");
+	addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
 }
 //
-function enterRoomAt(x_, y_) 
+function enterRoomAt(x_, y_)
 {// Loads a room into the UI
     //
     currentRoom = rooms[x_][y_];
@@ -119,7 +120,7 @@ function refreshNavButtons()
 	}
 }
 //
-function refreshItemButton() 
+function refreshItemButton()
 {// Updates the state of the UI room item button
     //
     if (currentRoom.item != null) {
@@ -138,22 +139,22 @@ function refreshItemButton()
 //
 //--------------------
 //
-function northButtonClicked() 
+function northButtonClicked()
 {
     enterRoomAt(currentRoom.x, currentRoom.y - 1);
 }
 //
-function southButtonClicked() 
+function southButtonClicked()
 {
     enterRoomAt(currentRoom.x, currentRoom.y + 1);
 }
 //
-function eastButtonClicked() 
+function eastButtonClicked()
 {
     enterRoomAt(currentRoom.x + 1, currentRoom.y);
 }
 //
-function westButtonClicked() 
+function westButtonClicked()
 {
     enterRoomAt(currentRoom.x - 1, currentRoom.y);
 }
