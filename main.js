@@ -50,9 +50,9 @@ function setupRooms()
 	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "Shiny Cup", "Ghost Detector");
 	addRoom(3,4, "Boudoir of the Queen of the Ball", "You're in the ghost queen's boudoir. You can see her majesty near a broken mirror covered with spider webs.", "Ghost Detector", "Ruby Ring");
 	addRoom(4,2, "Squeaky Hallway", "You Enter a hallway that's full of debis and squeaky floors, further ahead you can see a door that leads to a bathroom.");
-  	addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
-  	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
-	
+  addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
+	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
+	addRoom(4,1, "Opulent bathroom", "With a loud, squeeking sound the old wooden door opens. In the dark room you recognize what was once a nice bathroom, with large dusty mirror and golden bathtub. The smell is terrible here, probably because of some dead rats in one corner.", null, "Dead rat");
 }
 //
 function enterRoomAt(x_, y_)
