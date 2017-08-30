@@ -32,6 +32,6 @@ I use Github Desktop to make it all simpler, but whatever way you do your GIT sh
 1. Fork the repo
 2. Clone your fork
 3. Create a branch
-4. Make your changes
+4. Make your changes, including MAP.txt
 5. Push your changes to your fork
 6. Create a pull request
