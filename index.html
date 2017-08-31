@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html onkeydown="myFunctionTyping(event)">
      <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
         <title>Room Sprawl</title>
@@ -43,13 +43,13 @@
 
     	</div>
 
-    	<button id='btn_nav_north' class='btn_nav' onclick="northButtonClicked()">north</button>
+    	<button id='btn_nav_north' class='btn_nav' onclick="northButtonClicked()">north /\</button>
 		<button id='btn_lock_north' class='btn_lock' disabled>&nbsp;</button>
-		<button id='btn_nav_west' class='btn_nav' onclick="westButtonClicked()">west</button>
+		<button id='btn_nav_west' class='btn_nav' onclick="westButtonClicked()"> < west</button>
 		<button id='btn_lock_west' class='btn_lock' disabled>&nbsp;</button>
-		<button id='btn_nav_east' class='btn_nav' onclick="eastButtonClicked()">east</button>
+		<button id='btn_nav_east' class='btn_nav' onclick="eastButtonClicked()">east > </button>
 		<button id='btn_lock_east' class='btn_lock' disabled>&nbsp;</button>
-		<button id='btn_nav_south' class='btn_nav' onclick="southButtonClicked()">south</button>
+		<button id='btn_nav_south' class='btn_nav' onclick="southButtonClicked()">south \/</button>
 		<button id='btn_lock_south' class='btn_lock' disabled>&nbsp;</button>
 
 	</div>
@@ -57,7 +57,5 @@
     	<!-- <embed height="0" width="0" loop="true" src="muzak.mp3"> -->
 	</body>
 </html>
-
-
 
 

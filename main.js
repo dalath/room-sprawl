@@ -174,3 +174,39 @@ function itemButtonClicked()
 	refreshItemButton();
 	refreshNavButtons();
 }
+
+function myFunctionTyping(event) {
+    switch(event.which){
+    	case 38:
+    	if(!btnNavNorth.disabled){
+        	northButtonClicked();
+    	}
+        break;
+        case 40:
+        if(!btnNavSouth.disabled){
+        	southButtonClicked();
+        }
+        break;
+	    case 39:
+	    if(!btnNavEast.disabled){
+        	eastButtonClicked();
+        }
+        break;
+        case 37:
+        if(!btnNavWest.disabled){
+        	westButtonClicked();
+        }
+        break;
+        case 32:
+        case 13:
+        	itemButtonClicked();
+        	break;
+	    default:
+	        alert("Invalid Key Pressed \n" +
+	        	"Navigate using the \n" +
+	        	"Keys 	UP, 		DOWN, 	RIGHT 	and 	LEFT \n" +
+	        	"for 		NORTH, 	SOUTH, 	EAST 	and 	WEST respectively.\n" +
+	        	"You can pick up an item using the Return key or the Space bar!");
+	        break;
+    }
+}
