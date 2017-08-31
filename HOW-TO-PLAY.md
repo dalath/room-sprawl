@@ -12,14 +12,14 @@ There is no specific goal in this "game", but one might argue that getting 100% 
 
 
 		 ___
-		|	|
-		|	|					   _____
-		|	 -----				  | /\  |
+		|   |
+		|   |					   _____
+		|    -----				  | /\  |
 		| Return  |				  |North|
-		|Swap Item|			 -----------------
-		 ---------			|  <  |     |   > |
-							| West|     | East|
- _________________			 -----------------
-| 	   Space	  |				  |South|
-| 	 Swap Item    |				  |  \/ |
- -----------------				   -----
+		|Swap Item|			     -----------------
+		 ---------			    |  <  |     |   > |
+						    | West|     | East|
+ _________________				     -----------------
+|      Space	  |					  |South|
+|    Swap Item    |					  |  \/ |
+ -----------------					   -----
