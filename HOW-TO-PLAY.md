@@ -20,6 +20,6 @@ There is no specific goal in this "game", but one might argue that getting 100% 
 		 ---------			    |  <  |     |   > |
 						    | West|     | East|
  _________________				     -----------------
-|      Space	  |					  |South|
+|      Space      |					  |South|
 |    Swap Item    |					  |  \/ |
  -----------------					   -----
