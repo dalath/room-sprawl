@@ -49,10 +49,12 @@ function setupRooms()
 	addRoom(3,2, "Big Hall" , "After washing the dusty walls a giant Inka head appeared. You noticed its left eye is a button. By pressing it you entered this big hall. There are a bunch of lances to the left and light comes from a hole in the right wall.", "Shiny Cup");
 	addRoom(3,3, "The Haunted Ballroom" , "You are in the mood for mingling and dancing but not with the inhabitants of this room. The room is empty and cold but for some reason you keep bumping into things. Fill your shiny cup and have some fun!", "Shiny Cup", "Ghost Detector");
 	addRoom(3,4, "Boudoir of the Queen of the Ball", "You're in the ghost queen's boudoir. You can see her majesty near a broken mirror covered with spider webs.", "Ghost Detector", "Ruby Ring");
+	addRoom(3,5, "Beast's Playpen", "From the shadows of the room, you see red eyes glaring from a monstrous figure. It mutters \"My baby, my baby...\" before ripping the doll from your hands and returning to its seclusion.", "Childlike Doll");
 	addRoom(4,1, "Opulent bathroom", "With a loud, squeeking sound the old wooden door opens. In the dark room you recognize what was once a nice bathroom, with large dusty mirror and golden bathtub. The smell is terrible here, probably because of some dead rats in one corner.", null, "Dead rat");
 	addRoom(4,2, "Squeaky Hallway", "You Enter a hallway that's full of debis and squeaky floors, further ahead you can see a door that leads to a bathroom.");
   	addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
 	addRoom(5,1, "Classified Jacuzzi", "A room with a large bath with a system of underwater jets of water to massage the body. A Large Hammer tainted red with rust lies in the middle of the room.", "Dead rat", "Hammer");
+	addRoom(5,3, "Abandoned Nursery", "The walls of this room are marked with colorful paint gone dull with age. In the center, you notice a small doll - a remnant of happier days.", null, "Childlike Doll");
 	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
 }
 //
