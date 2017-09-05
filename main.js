@@ -52,6 +52,7 @@ function setupRooms()
 	addRoom(4,1, "Opulent bathroom", "With a loud, squeeking sound the old wooden door opens. In the dark room you recognize what was once a nice bathroom, with large dusty mirror and golden bathtub. The smell is terrible here, probably because of some dead rats in one corner.", null, "Dead rat");
 	addRoom(4,2, "Squeaky Hallway", "You Enter a hallway that's full of debis and squeaky floors, further ahead you can see a door that leads to a bathroom.");
   	addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
+	addRoom(4,5, "Green Room", "You enter a room with a couple couches and a large coffee table. On the coffee table are some snacks and a few old magazines. There's a large flatscreen monitor on the wall.");
 	addRoom(5,1, "Classified Jacuzzi", "A room with a large bath with a system of underwater jets of water to massage the body. A Large Hammer tainted red with rust lies in the middle of the room.", "Dead rat", "Hammer");
 	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
 }
