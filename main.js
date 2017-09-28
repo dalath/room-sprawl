@@ -38,6 +38,7 @@ function setupRooms()
 	addRoom(0,0, "The River", "You find yourself in a large cavern. Beyond the sandy beach a river flows to the north. To the south you can see a wide opening in the rock.");
 	addRoom(0,1, "Pear-Shaped Cave", "The passageway opens into a pear-shaped cave with a rough stone floor, making walking across it somewhat awkward. In one corner of the room is a pile of rubble, mainly stones and dust.");
 	addRoom(0,2, "Small Dirty Room", "A door in the rock face opens to reveal a small room. The room is dirty and unkempt. A straw mattress lies in one corner. In the center of the room is a wooden table upon which a candle burns, lighting the room with its flickering flame.", null, "Candle");
+	addRoom(0,4,"Prayer Room","Prayer room for the well being of other and you can distribute the received food.","Candle","Food");
 	addRoom(1,1, "Gloomy Corridor", "You are in a gloomy, stone-flagged corridor. The rough stone walls stand 3 meters apart, with the same distance measured from floor to ceiling. They drip slightly with dampness and covered in mildew.", "Candle");
 	addRoom(1,4, "Forgotten Altar", "A dusty altar sits tucked against the west wall in an otherwise empty chamber. 4 candles sit upon its surface, 3 of them lit. The light flickers across rosary cast to the floor nearby.", null, "Rosary");
 	addRoom(2,0, "Worm Pipe", "A narrow pipe-like corridor with light coming from the other side. It seems you need to crawl to the end.");
