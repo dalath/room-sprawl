@@ -42,7 +42,7 @@ function setupRooms()
 	addRoom(1,1, "Gloomy Corridor", "You are in a gloomy, stone-flagged corridor. The rough stone walls stand 3 meters apart, with the same distance measured from floor to ceiling. They drip slightly with dampness and covered in mildew.", "Candle");
 	addRoom(1,4, "Forgotten Altar", "A dusty altar sits tucked against the west wall in an otherwise empty chamber. 4 candles sit upon its surface, 3 of them lit. The light flickers across rosary cast to the floor nearby.", null, "Rosary");
 	addRoom(2,0, "Worm Pipe", "A narrow pipe-like corridor with light coming from the other side. It seems you need to crawl to the end.");
-  	addRoom(2,1, "Fish Fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish with a short jet of water erupting from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
+  addRoom(2,1, "Fish Fountain", "You enter a small room, bare except for a fountain in the middle. Not a particularly grand affair, the fountain is a small carved fish with a short jet of water erupting from its mouth. A badly scratched wooden sign hangs from the fish: \"--- NOT --- DRIN-\"");
 	addRoom(2,2, "Dirty Wall", "You are in a room with paintings covered by centuries of dust. You wish you could bring the fountain's water somehow to wash the walls.");
 	addRoom(2,3, "Ruins", "The now spotless dusty walls also reveals a passage. As you follow the path, you notice your descent downwards, and eventually the tunnel opens into a large, ruined, underground civilization. Perhaps you can find some lost treasure down here.", null, "Door Handle");
 	addRoom(2,4, "The Dark Warehouse", "The room appears to be full of assorted junk but there is no light with which to see anything. You might find something handy here!", "Candle", "Ghost Detector");
@@ -54,11 +54,14 @@ function setupRooms()
 	addRoom(3,6, "Dripping Room", "A room with red liquid dripping from the ceiling that seems neverending. You get closer to inspect the liquid to be relieved that it wasn't blood.", null, "Red Liquid");
 	addRoom(4,1, "Opulent bathroom", "With a loud, squeeking sound the old wooden door opens. In the dark room you recognize what was once a nice bathroom, with large dusty mirror and golden bathtub. The smell is terrible here, probably because of some dead rats in one corner.", null, "Dead rat");
 	addRoom(4,2, "Squeaky Hallway", "You Enter a hallway that's full of debis and squeaky floors, further ahead you can see a door that leads to a bathroom.");
-  	addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
+  addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
 	addRoom(4,5, "Green Room", "You enter a room with a couple couches and a large coffee table. On the coffee table are some snacks and a few old magazines. There's a large flatscreen monitor on the wall.");
+	addRoom(5,0, "Unconventional Urinals", "You enter a long, well-lit room with a wall lined with what appear to be hunting trophies. Upon further investigation, you realise they are, infact, urinals.");
 	addRoom(5,1, "Classified Jacuzzi", "A room with a large bath with a system of underwater jets of water to massage the body. A Large Hammer tainted red with rust lies in the middle of the room.", "Dead rat", "Hammer");
 	addRoom(5,3, "Abandoned Nursery", "The walls of this room are marked with colorful paint gone dull with age. In the center, you notice a small doll - a remnant of happier days.", null, "Childlike Doll");
 	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
+  addRoom(6,1, "The Locker Room", "You enter a darkly lit locker room. There are rows of lockers and you see one of them open. You walk over to it and inside the locker is a golden glove.", null, "Golden Glove");
+	addRoom(6,3, "Spooky School Yard", "You enter an empty school yard. No soul's to be seen. The only thing you hear are screams from afar.");
 }
 //
 function enterRoomAt(x_, y_)
