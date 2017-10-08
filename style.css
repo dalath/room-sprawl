@@ -1,14 +1,19 @@
 
 /* @import url('colors.css'); */
 
-
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
 
 html
 {
-    /* background-image: url("../img/siteBackgrounds/siteBackground_1.jpg"); */
+     background-image: url("./background.jpg");
+	 background-repeat: no-repeat;
+	 background-size: 100%;
 }
 
-
+body
+{
+	font-family: 'Cinzel', serif;
+}
 
 
 canvas
@@ -23,7 +28,6 @@ canvas
 	position: relative;
 	margin: 0 auto;
 	width: 700px;
-	font-family: Helvetica;
 }
 
 #room_wrapper
@@ -61,8 +65,7 @@ canvas
 	position: absolute;
 	padding: 5px;
 	text-align: left;
-	font-family: Courier;
-	font-size: medium;
+	font-size: large;
 	/* border: 1px dotted blue; */
 }
 
