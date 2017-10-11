@@ -39,7 +39,7 @@ function setupRooms()
 	addRoom(0,1, "Pear-Shaped Cave", "The passageway opens into a pear-shaped cave with a rough stone floor, making walking across it somewhat awkward. In one corner of the room is a pile of rubble, mainly stones and dust.");
 	addRoom(0,2, "Small Dirty Room", "A door in the rock face opens to reveal a small room. The room is dirty and unkempt. A straw mattress lies in one corner. In the center of the room is a wooden table upon which a candle burns, lighting the room with its flickering flame.", null, "Candle");
 	addRoom(0,4, "Prayer Room","Prayer room for the well being of others and you can distribute the received food.","Candle","Food");
-	addroom(0,5, "Knee-high tunnel", "Leading away from the Prayer room is a low slung tunnel. It's a very tight squeeze, but you lie face down and slide through toward a quiet grumbling sound.")
+	addRoom(0,5, "Knee-high tunnel", "Leading away from the Prayer room is a low slung tunnel. It's a very tight squeeze, but you lie face down and slide through toward a quiet grumbling sound.")
 	addRoom(1,1, "Gloomy Corridor", "You are in a gloomy, stone-flagged corridor. The rough stone walls stand 3 meters apart, with the same distance measured from floor to ceiling. They drip slightly with dampness and are covered in mildew.", "Candle");
 	addRoom(1,4, "Forgotten Altar", "A dusty altar sits tucked against the west wall in an otherwise empty chamber. 4 candles sit upon its surface, 3 of them lit. The light flickers across a rosary cast upon the floor nearby.", null, "Rosary");
 	addRoom(2,0, "Worm Pipe", "A narrow pipe-like corridor with light coming from the other side. It seems you need to crawl to the end.");
