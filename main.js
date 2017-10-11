@@ -39,7 +39,8 @@ function setupRooms()
 	addRoom(0,1, "Pear-Shaped Cave", "The passageway opens into a pear-shaped cave with a rough stone floor, making walking across it somewhat awkward. In one corner of the room is a pile of rubble, mainly stones and dust.");
 	addRoom(0,2, "Small Dirty Room", "A door in the rock face opens to reveal a small room. The room is dirty and unkempt. A straw mattress lies in one corner. In the center of the room is a wooden table upon which a candle burns, lighting the room with its flickering flame.", null, "Candle");
 	addRoom(0,4, "Prayer Room","Prayer room for the well being of others and you can distribute the received food.","Candle","Food");
-	addRoom(0,5, "Knee-high tunnel", "Leading away from the Prayer room is a low slung tunnel. It's a very tight squeeze, but you lie face down and slide through toward a quiet grumbling sound.")
+	addRoom(0,5, "Knee-high tunnel", "Leading away from the Prayer room is a low slung tunnel. It's a very tight squeeze, but you lie face down and slide through toward a quiet, grumbling sound.");
+	addRoom(0,6, "Goblin's  nest", "As you exit the tunnel, you see a pile of junk that looks like it was scavenged from other rooms of the castle. 'Give me the Food and I will give you the most valuable item from my collection', says the small, green goblin sitting atop the pile.", "Food", "Broken Key");
 	addRoom(1,1, "Gloomy Corridor", "You are in a gloomy, stone-flagged corridor. The rough stone walls stand 3 meters apart, with the same distance measured from floor to ceiling. They drip slightly with dampness and are covered in mildew.", "Candle");
 	addRoom(1,4, "Forgotten Altar", "A dusty altar sits tucked against the west wall in an otherwise empty chamber. 4 candles sit upon its surface, 3 of them lit. The light flickers across a rosary cast upon the floor nearby.", null, "Rosary");
 	addRoom(2,0, "Worm Pipe", "A narrow pipe-like corridor with light coming from the other side. It seems you need to crawl to the end.");
@@ -61,7 +62,7 @@ function setupRooms()
 	addRoom(5,1, "Classified Jacuzzi", "A room with a large bath with a system of underwater jets of water to massage the body. A Large Hammer tainted red with rust lies in the middle of the room.", "Dead rat", "Hammer");
 	addRoom(5,3, "Abandoned Nursery", "The walls of this room are marked with colorful paint gone dull with age. In the center, you notice a small doll - a remnant of happier days.", null, "Childlike Doll");
 	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
-	addRoom(6,0, "Eternal Boredom", "You enter a barren room that gives the illusion of having no exit. Ghastly boredom is all that comes to mind");
+	addRoom(6,0, "Eternal Boredom", "You enter a barren room that gives the illusion of having no exit. Ghastly boredom is all that comes to mind. Seems the goblin's key wasn't actually very valuable...", "Broken Key");
 	addRoom(6,1, "The Locker Room", "You enter a darkly lit locker room. There are rows of lockers and you see one of them open. You walk over to it and inside the locker is a golden glove.", null, "Golden Glove");
 	addRoom(6,3, "Spooky School Yard", "You enter an empty school yard. No soul's to be seen. The only thing you hear are screams from afar.");
 }
