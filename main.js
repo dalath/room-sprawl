@@ -63,6 +63,7 @@ function setupRooms()
 	addRoom(5,1, "Classified Jacuzzi", "A room with a large bath with a system of underwater jets of water to massage the body. A Large Hammer tainted red with rust lies in the middle of the room.", "Dead rat", "Hammer");
 	addRoom(5,3, "Abandoned Nursery", "The walls of this room are marked with colorful paint gone dull with age. In the center, you notice a small doll - a remnant of happier days.", null, "Childlike Doll");
 	addRoom(5,4, "A Ray Of Hope", "A place of eternal Darkness with a ray of hope you cant see your way further, only if you have Ruby Ring placed over the ray of sunlight will the room enlighten","Ruby Ring","Ray of Hope");
+	addRoom(5,5, "Deja Vu Room", "You're pretty sure you've never been here, but you seem to just be on the brink of remembering something");
 	addRoom(6,0, "Eternal Boredom", "You enter a barren room that gives the illusion of having no exit. Ghastly boredom is all that comes to mind. Seems the goblin's key wasn't actually very valuable...", "Broken Key");
 	addRoom(6,1, "The Locker Room", "You enter a darkly lit locker room. There are rows of lockers and you see one of them open. You walk over to it and inside the locker is a golden glove.", null, "Golden Glove");
 	addRoom(6,3, "Spooky School Yard", "You enter an empty school yard. No soul's to be seen. The only thing you hear are screams from afar.");
