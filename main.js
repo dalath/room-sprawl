@@ -68,6 +68,8 @@ function setupRooms()
 	addRoom(6,1, "The Locker Room", "You enter a darkly lit locker room. There are rows of lockers and you see one of them open. You walk over to it and inside the locker is a golden glove.", null, "Golden Glove");
 	addRoom(6,3, "Spooky School Yard", "You enter an empty school yard. No soul's to be seen. The only thing you hear are screams from afar.");
 	addRoom(7,1, "The Office", "You enter a dark room illuminated only by a computer monitor. You walk behind and see a note pad with the word RUN scribbled on it.", null, "Note");
+	addRoom(8,1, "Pharaoh's Tomb", "You entered a room where the walls and the floor and the ceiling are covered in gold. In the middle of the room, Pharaoh's tomb is majestically placed, on it lays his Golden Staff", "Golden Glove", "Golden Staff");
+
 }
 //
 function enterRoomAt(x_, y_)
