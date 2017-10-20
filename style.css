@@ -77,11 +77,18 @@ canvas
 	height: 50px;
 }
 
-.btn_lock
+.btn_nav:enabled
 {
+	cursor: pointer;
+}
+
+.btn_lock
+{	
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 #btn_item
@@ -89,6 +96,11 @@ canvas
 	position: absolute;
 	min-width: 50px;
 	height: 50px;
+}
+
+#btn_item:enabled
+{
+	cursor: pointer;
 }
 
 .hud_row
