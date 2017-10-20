@@ -19,7 +19,8 @@ There is no specific goal in this "game", but one might argue that getting 100% 
 		|Swap Item|			     -----------------
 		 ---------			    |  <  |     |   > |
 						    | West|     | East|
- _________________				     -----------------
-|      Space      |					  |South|
-|    Swap Item    |					  |  \/ |
- -----------------					   -----
+ 					             -----------------
+		____________________			  |South|
+	       |       Space        |			  | \/  |
+           |    Swap Item       |			  -------
+	        --------------------
