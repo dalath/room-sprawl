@@ -71,6 +71,7 @@ function setupRooms()
   addRoom(6,5, "The Champagne Room", "You enter a brightly lit room with a baby grand piano in the middle and bottles of various champagnes, wines, and liquors. You sit to rest your legs and have a drink.");
 	addRoom(7,1, "The Office", "You enter a dark room illuminated only by a computer monitor. You walk behind and see a note pad with the word RUN scribbled on it.", null, "Note");
 	addRoom(8,1, "Pharaoh's Tomb", "You entered a room where the walls and the floor and the ceiling are covered in gold. In the middle of the room, Pharaoh's tomb is majestically placed, on it lays his Golden Staff", "Golden Glove", "Golden Staff");
+  addRoom(8,2, "Leprechaun Portal", "You enter a room with the portal in the middle of the room. You can see leprechauns guarding the portal. As you get close to the portal the leprechauns block your path.");
 }
 //
 function enterRoomAt(x_, y_)
