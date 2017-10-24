@@ -73,6 +73,7 @@ function setupRooms()
 	addRoom(7,1, "The Office", "You enter a dark room illuminated only by a computer monitor. You walk behind and see a note pad with the word RUN scribbled on it.", null, "Note");
 	addRoom(8,1, "Pharaoh's Tomb", "You entered a room where the walls and the floor and the ceiling are covered in gold. In the middle of the room, Pharaoh's tomb is majestically placed, on it lays his Golden Staff", "Golden Glove", "Golden Staff");
   addRoom(8,2, "Leprechaun Portal", "You enter a room with the portal in the middle of the room. You can see leprechauns guarding the portal. As you get close to the portal the leprechauns block your path.");
+	addRoom(8,3, "The Rug Room", "You step into a dingy, dimly lit room with a large purple shag rug on the dirt floor. The rug shifts and rises up, getting on all four corners. The rug shuffles up and seems to sniff you. It seems friendly. You give the rug a pat as you head for the door.");
 }
 //
 function enterRoomAt(x_, y_)
