@@ -25,10 +25,10 @@ The title, description, and items parameters are just simple strings. In order t
 Look at the setupRooms method in main.js. Simplest way to start would be to copy-and-paste an existing line and make your changes to it.
 To see how your particular room fits into the sprawl, have a look at [MAP.txt](MAP.txt)
 
-##Testing
+## Testing
 When testing your changes, or when simply debugging, you can run your branched version of the program from the command line using the following command:
 
-###open ./index.html
+### open ./index.html
 
 ## TECH STUFF
 I use Github Desktop to make it all simpler, but whatever way you do your GIT should be fine.
