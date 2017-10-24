@@ -1,6 +1,6 @@
-First, [go visit Room Sprawl](https://rawgit.com/dalath/room-sprawl/master/index.html) and see what it's about. 
+First, go visit [Room Sprawl](https://rawgit.com/dalath/room-sprawl/master/index.html) and see what it's about. 
 
-...
+
 
 You can contribute simply by creating a new room in the game!
 
@@ -25,6 +25,10 @@ The title, description, and items parameters are just simple strings. In order t
 Look at the setupRooms method in main.js. Simplest way to start would be to copy-and-paste an existing line and make your changes to it.
 To see how your particular room fits into the sprawl, have a look at [MAP.txt](MAP.txt)
 
+##Testing
+When testing your changes, or when simply debugging, you can run your branched version of the program from the command line using the following command:
+
+###open ./index.html
 
 ## TECH STUFF
 I use Github Desktop to make it all simpler, but whatever way you do your GIT should be fine.
@@ -35,3 +39,4 @@ I use Github Desktop to make it all simpler, but whatever way you do your GIT sh
 4. Make your changes, including MAP.txt
 5. Push your changes to your fork
 6. Create a pull request
+
