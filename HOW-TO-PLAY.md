@@ -22,5 +22,5 @@ There is no specific goal in this "game", but one might argue that getting 100% 
  					             -----------------
 		____________________			  |South|
 	       |       Space        |			  | \/  |
-               |    Swap Item       |			  -------
+           |    Swap Item       |			  -------
 	        --------------------
