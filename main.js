@@ -69,11 +69,12 @@ function setupRooms()
 	addRoom(6,1, "The Locker Room", "You enter a darkly lit locker room. There are rows of lockers and you see one of them open. You walk over to it and inside the locker is a golden glove.", null, "Golden Glove");
 	addRoom(6,3, "Spooky School Yard", "You enter an empty school yard. No soul's to be seen. The only thing you hear are screams from afar.");
 	addRoom(6,4, "Panic Room", "You enter a small, dimly lit room that startles you with blaring sirens. Grab the keycard from the table in the center of the room, find the keypad on the wall and swipe the keycard to turn off the sirens.", null, "Keycard");
-    addRoom(6,5, "The Champagne Room", "You enter a brightly lit room with a baby grand piano in the middle and bottles of various champagnes, wines, and liquors. You sit to rest your legs and have a drink.");
+    	addRoom(6,5, "The Champagne Room", "You enter a brightly lit room with a baby grand piano in the middle and bottles of various champagnes, wines, and liquors. You sit to rest your legs and have a drink.");
+	addRoom(6,6, "Cursed Cafeteria", "The smell of home cooked meals touch your nose, triggering your long lost childhood memory. A big feast is set up on the middle table. Suddenly, you notice a pair of eyes staring at you from behind the kitchen counter...");
 	addRoom(7,1, "The Office", "You enter a dark room illuminated only by a computer monitor. You walk behind and see a note pad with the word RUN scribbled on it.", null, "Note");
-    addRoom(7,4, "Requirement", "You enter a room which at a first glance looks to be empty, but then you realise you can see something moving. Not one thing but infinite things. Infitnite you's. The walls are mirrors. A silver sundail sits camoflaged in a corner, A Strange device.", "Ray of Hope", "sundial");
+    	addRoom(7,4, "Requirement", "You enter a room which at a first glance looks to be empty, but then you realise you can see something moving. Not one thing but infinite things. Infitnite you's. The walls are mirrors. A silver sundail sits camoflaged in a corner, A Strange device.", "Ray of Hope", "sundial");
 	addRoom(8,1, "Pharaoh's Tomb", "You entered a room where the walls and the floor and the ceiling are covered in gold. In the middle of the room, Pharaoh's tomb is majestically placed, on it lays his Golden Staff", "Golden Glove", "Golden Staff");
-  addRoom(8,2, "Leprechaun Portal", "You enter a room with the portal in the middle of the room. You can see leprechauns guarding the portal. As you get close to the portal the leprechauns block your path.");
+  	addRoom(8,2, "Leprechaun Portal", "You enter a room with the portal in the middle of the room. You can see leprechauns guarding the portal. As you get close to the portal the leprechauns block your path.");
 	addRoom(8,3, "The Rug Room", "You step into a dingy, dimly lit room with a large purple shag rug on the dirt floor. The rug shifts and rises up, getting on all four corners. The rug shuffles up and seems to sniff you. It seems friendly. You give the rug a pat as you head for the door.");
 }
 //
