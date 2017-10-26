@@ -1,12 +1,12 @@
-First, go visit [Room Sprawl](https://rawgit.com/dalath/room-sprawl/master/index.html) and see what it's about. 
+First, go visit [Room Sprawl](https://rawgit.com/dalath/room-sprawl/master/index.html), and see what it's about. 
 
 
 
-You can contribute simply by creating a new room in the game!
+You can contribute by simply creating a new room in the game!
 
 
 ## What are rooms?
-A room has a location (x and y in a grid), a title (e.g. *"Shadowy Dining Room"*) and a description (e.g. *"Most of this room is taken up by a giant dining room table surrounded by tall chairs..."* and so on). 
+A room has a location (x and y in a grid), a title (e.g. *"Shadowy Dining Room"*), and a description (e.g. *"Most of this room is taken up by a giant dining room table surrounded by tall chairs..."* and so on). 
 
 A room might also contain an item (optional) or require some item to be entered (also optional). See How-To-Play for more detailed information.
 
@@ -26,7 +26,7 @@ Look at the setupRooms method in main.js. Simplest way to start would be to copy
 To see how your particular room fits into the sprawl, have a look at [MAP.txt](MAP.txt)
 
 ## Testing
-When testing your changes, or when simply debugging, you can run your branched version of the program from the command line using the following command:
+When testing your changes, or simply debugging, you can run your branched version of the program from the command line using the following command:
 
 	open ./index.html
 
