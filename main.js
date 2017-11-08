@@ -61,6 +61,8 @@ function setupRooms()
 	addRoom(4,2, "Squeaky Hallway", "You enter a hallway that's full of debris and squeaky floors, further ahead you can see a door that leads to a bathroom.");
 	addRoom(4,4, "Strange Paintings", "Seven paintings hang on a wall - all of them are the same; A seemingly sixty year old man wearing a tux and round glasses, holding a walking stick on one hand and a small cage. Looks like there is a spider inside it.");
 	addRoom(4,5, "Green Room", "You enter a room with a couple of couches and a large coffee table. On the coffee table are some snacks and a few old magazines. There's a large flatscreen monitor on the wall.");
+	addRoom(4,7, "Lair of a Beaver", "You enter a small flooded room, with smell of freshly sawed wood, you have only one more way to go - cross the water on a dam");
+
 	addRoom(5,0, "Unconventional Urinals", "You enter a long, well-lit room with a wall lined with what appear to be hunting trophies. Upon further investigation, you realise they are, in fact, urinals.");
 	addRoom(5,1, "Classified Jacuzzi", "A room with a large bath with a system of underwater jets of water to massage the body. A Large Hammer tainted red with rust lies in the middle of the room.", "Dead rat", "Hammer");
 	addRoom(5,3, "Abandoned Nursery", "The walls of this room are marked with colorful paint gone dull with age. In the center, you notice a small doll - a remnant of happier days.", null, "Childlike Doll");
@@ -70,10 +72,10 @@ function setupRooms()
 	addRoom(6,1, "The Locker Room", "You enter a darkly lit locker room. There are rows of lockers and you see one of them open. You walk over to it and inside the locker is a golden glove.", null, "Golden Glove");
 	addRoom(6,3, "Spooky School Yard", "You enter an empty school yard. No soul's to be seen. The only thing you hear are screams from afar.");
 	addRoom(6,4, "Panic Room", "You enter a small, dimly lit room that startles you with blaring sirens. Grab the keycard from the table in the center of the room, find the keypad on the wall and swipe the keycard to turn off the sirens.", null, "Keycard");
-    	addRoom(6,5, "The Champagne Room", "You enter a brightly lit room with a baby grand piano in the middle and bottles of various champagnes, wines, and liquors. You sit to rest your legs and have a drink.");
+    addRoom(6,5, "The Champagne Room", "You enter a brightly lit room with a baby grand piano in the middle and bottles of various champagnes, wines, and liquors. You sit to rest your legs and have a drink.");
 	addRoom(6,6, "Cursed Cafeteria", "The smell of home cooked meals touch your nose, triggering your long lost childhood memory. A big feast is set up on the middle table. Suddenly, you notice a pair of eyes staring at you from behind the kitchen counter...");
 	addRoom(7,1, "The Office", "You enter a dark room illuminated only by a computer monitor. You walk behind and see a note pad with the word RUN scribbled on it.", null, "Note");
-    	addRoom(7,4, "Requirement", "You enter a room which at a first glance looks to be empty, but then you realise you can see something moving. Not one thing but infinite things. Infitnite you's. The walls are mirrors. A silver sundail sits camoflaged in a corner, A Strange device.", "Ray of Hope", "sundial");
+    addRoom(7,4, "Requirement", "You enter a room which at a first glance looks to be empty, but then you realise you can see something moving. Not one thing but infinite things. Infitnite you's. The walls are mirrors. A silver sundail sits camoflaged in a corner, A Strange device.", "Ray of Hope", "sundial");
 	addRoom(8,1, "Pharaoh's Tomb", "You entered a room where the walls and the floor and the ceiling are covered in gold. In the middle of the room, Pharaoh's tomb is majestically placed, on it lays his Golden Staff", "Golden Glove", "Golden Staff");
   	addRoom(8,2, "Leprechaun Portal", "You enter a room with the portal in the middle of the room. You can see leprechauns guarding the portal. As you get close to the portal the leprechauns block your path.");
 	addRoom(8,3, "The Rug Room", "You step into a dingy, dimly lit room with a large purple shag rug on the dirt floor. The rug shifts and rises up, getting on all four corners. The rug shuffles up and seems to sniff you. It seems friendly. You give the rug a pat as you head for the door.");
