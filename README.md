@@ -1,3 +1,8 @@
+## This project is temporarily archived
+Hoping to be able to bring it back in the near future
+
+---
+
 # What is this?
 This project exists to provide a simple, and hopefully fun, way of participating in Open Source Development.
 
